@@ -1,0 +1,18 @@
+[0.295s] Invoking command in '/home/ryo/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/ryo/ros2_ws/build/person_msgs -- -j8 -l8
+[0.317s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.526s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.532s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.598s]   rosidl_generate_interfaces() the passed file 'msg/Person.msgs' doesn't
+[0.599s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.599s]   '/home/ryo/ros2_ws/src/person_msgs'
+[0.599s] Call Stack (most recent call first):
+[0.599s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.599s] 
+[0.599s] [0m
+[0.600s] -- Configuring incomplete, errors occurred!
+[0.600s] See also "/home/ryo/ros2_ws/build/person_msgs/CMakeFiles/CMakeOutput.log".
+[0.602s] gmake: *** [Makefile:226: cmake_check_build_system] エラー 1
+[0.604s] Invoked command in '/home/ryo/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/ryo/ros2_ws/build/person_msgs -- -j8 -l8

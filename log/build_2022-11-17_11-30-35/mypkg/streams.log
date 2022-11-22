@@ -1,0 +1,23 @@
+[1.346s] Invoking command in '/home/ryo/ros2_ws/src/mypkg': PYTHONPATH=/home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryo/ros2_ws/build/mypkg/build install --prefix /home/ryo/ros2_ws/install/mypkg --record /home/ryo/ros2_ws/build/mypkg/install.log --single-version-externally-managed
+[1.870s] running egg_info
+[1.871s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.873s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.874s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.874s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.875s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.877s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.880s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.880s] running build
+[1.881s] running build_py
+[1.882s] running install
+[1.882s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.882s]   warnings.warn(
+[1.882s] running install_lib
+[1.885s] running install_data
+[1.886s] running install_egg_info
+[1.890s] removing '/home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.891s] Copying ../../build/mypkg/mypkg.egg-info to /home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.892s] running install_scripts
+[1.938s] Installing talker script to /home/ryo/ros2_ws/install/mypkg/lib/mypkg
+[1.938s] writing list of installed files to '/home/ryo/ros2_ws/build/mypkg/install.log'
+[1.993s] Invoked command in '/home/ryo/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/ryo/ros2_ws/build/mypkg/build install --prefix /home/ryo/ros2_ws/install/mypkg --record /home/ryo/ros2_ws/build/mypkg/install.log --single-version-externally-managed

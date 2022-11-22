@@ -1,0 +1,35 @@
+[0.803s] Invoking command in '/home/ryo/ros2_ws/src/mypkg': PYTHONPATH=/home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/ryo/ros2_ws/src/build/mypkg/build install --prefix /home/ryo/ros2_ws/src/install/mypkg --record /home/ryo/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
+[1.047s] running egg_info
+[1.047s] creating ../build/mypkg/mypkg.egg-info
+[1.048s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.048s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.048s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.048s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[1.049s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[1.049s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.051s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.052s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.052s] running build
+[1.052s] running build_py
+[1.053s] creating /home/ryo/ros2_ws/src/build/mypkg/build
+[1.053s] creating /home/ryo/ros2_ws/src/build/mypkg/build/lib
+[1.053s] creating /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.053s] copying mypkg/__init__.py -> /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.053s] running install
+[1.071s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.071s]   warnings.warn(
+[1.072s] running install_lib
+[1.074s] creating /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.074s] copying /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.076s] byte-compiling /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[1.077s] running install_data
+[1.078s] creating /home/ryo/ros2_ws/src/install/mypkg/share/ament_index
+[1.078s] creating /home/ryo/ros2_ws/src/install/mypkg/share/ament_index/resource_index
+[1.079s] creating /home/ryo/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.080s] copying resource/mypkg -> /home/ryo/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.080s] copying package.xml -> /home/ryo/ros2_ws/src/install/mypkg/share/mypkg
+[1.080s] running install_egg_info
+[1.084s] Copying ../build/mypkg/mypkg.egg-info to /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.087s] running install_scripts
+[1.132s] writing list of installed files to '/home/ryo/ros2_ws/src/build/mypkg/install.log'
+[1.158s] Invoked command in '/home/ryo/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/ryo/ros2_ws/src/build/mypkg/build install --prefix /home/ryo/ros2_ws/src/install/mypkg --record /home/ryo/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed

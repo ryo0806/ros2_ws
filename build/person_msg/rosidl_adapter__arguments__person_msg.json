@@ -1,0 +1,6 @@
+{
+  "package_name": "person_msg",
+  "non_idl_tuples": [
+    "/home/ryo/ros2_ws/src/person_msg:msg/Person.msg"
+  ]
+}

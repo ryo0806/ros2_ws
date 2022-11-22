@@ -1,0 +1,63 @@
+[0.364s] Invoking command in '/home/ryo/ros2_ws/build/person_msg': CMAKE_PREFIX_PATH=/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/ryo/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/ryo/ros2_ws/install/person_msg
+[0.677s] -- The C compiler identification is GNU 11.3.0
+[0.900s] -- The CXX compiler identification is GNU 11.3.0
+[0.925s] -- Detecting C compiler ABI info
+[1.036s] -- Detecting C compiler ABI info - done
+[1.047s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.049s] -- Detecting C compile features
+[1.051s] -- Detecting C compile features - done
+[1.058s] -- Detecting CXX compiler ABI info
+[1.166s] -- Detecting CXX compiler ABI info - done
+[1.176s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.176s] -- Detecting CXX compile features
+[1.177s] -- Detecting CXX compile features - done
+[1.195s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.479s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.679s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.705s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.797s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.100s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[2.101s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[2.101s]   person_msg --arguments-file
+[2.102s]   /home/ryo/ros2_ws/build/person_msg/rosidl_adapter__arguments__person_msg.json
+[2.102s]   --output-dir /home/ryo/ros2_ws/build/person_msg/rosidl_adapter/person_msg
+[2.103s]   --output-file
+[2.103s]   /home/ryo/ros2_ws/build/person_msg/rosidl_adapter/person_msg.idls) returned
+[2.104s]   error code 1:
+[2.104s] 
+[2.105s]   Error processing 'unit8 age' of 'person_msg/Person': ''unit8' is an invalid
+[2.105s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[2.106s] 
+[2.106s]   Traceback (most recent call last):
+[2.107s] 
+[2.107s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[2.108s]       return _run_code(code, main_globals, None,
+[2.108s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[2.109s]       exec(code, run_globals)
+[2.109s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.110s]       sys.exit(main())
+[2.110s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[2.110s]       abs_idl_file = convert_to_idl(
+[2.111s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[2.111s]       return convert_msg_to_idl(
+[2.112s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.113s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.113s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[2.114s]       Type(type_string, context_package_name=pkg_name),
+[2.114s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[2.115s]       super(Type, self).__init__(
+[2.116s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[2.117s]       raise InvalidResourceName(
+[2.117s] 
+[2.117s]   rosidl_adapter.parser.InvalidResourceName: 'unit8' is an invalid message
+[2.117s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.118s] 
+[2.118s] Call Stack (most recent call first):
+[2.118s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.118s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[2.118s] 
+[2.118s] [0m
+[2.118s] -- Configuring incomplete, errors occurred!
+[2.119s] See also "/home/ryo/ros2_ws/build/person_msg/CMakeFiles/CMakeOutput.log".
+[2.119s] Invoked command in '/home/ryo/ros2_ws/build/person_msg' returned '1': CMAKE_PREFIX_PATH=/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/ryo/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/ryo/ros2_ws/install/person_msg

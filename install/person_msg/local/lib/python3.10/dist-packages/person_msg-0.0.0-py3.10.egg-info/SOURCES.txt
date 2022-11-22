@@ -1,0 +1,8 @@
+setup.py
+person_msg/__init__.py
+person_msg.egg-info/PKG-INFO
+person_msg.egg-info/SOURCES.txt
+person_msg.egg-info/dependency_links.txt
+person_msg.egg-info/top_level.txt
+person_msg/msg/__init__.py
+person_msg/msg/_person.py

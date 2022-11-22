@@ -1,0 +1,1 @@
+Invoking command in '/home/ryo/ros2_ws/build/person_msg': CMAKE_PREFIX_PATH=/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/ryo/ros2_ws/src/person_msg -DCMAKE_INSTALL_PREFIX=/home/ryo/ros2_ws/install/person_msg

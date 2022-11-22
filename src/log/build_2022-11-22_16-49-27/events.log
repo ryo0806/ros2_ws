@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000813] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000885] (person_msg) JobQueued: {'identifier': 'person_msg', 'dependencies': OrderedDict()}
+[0.000935] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000983] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.015259] (person_msg) JobStarted: {'identifier': 'person_msg'}
+[0.021347] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.098474] (-) TimerEvent: {}
+[0.199066] (-) TimerEvent: {}
+[0.281036] (person_msg) JobProgress: {'identifier': 'person_msg', 'progress': 'cmake'}
+[0.281354] (person_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/ryo/ros2_ws/src/person_msg', '-DCMAKE_INSTALL_PREFIX=/home/ryo/ros2_ws/src/install/person_msg'], 'cwd': '/home/ryo/ros2_ws/src/build/person_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ryo'), ('USER', 'ryo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ryo'), ('OLDPWD', '/home/ryo/ros2_ws/src/person_msg/msg'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ryo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ryo/ros2_ws/src/build/person_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.290542] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.292497] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ryo/ros2_ws/src/person_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ryo/ros2_ws/src/install/person_msgs'], 'cwd': '/home/ryo/ros2_ws/src/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ryo'), ('USER', 'ryo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ryo'), ('OLDPWD', '/home/ryo/ros2_ws/src/person_msg/msg'), ('HUSHLOGIN', 'FALSE'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ryo/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ryo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ryo/ros2_ws/src/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.299262] (-) TimerEvent: {}
+[0.365976] (person_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.371153] (person_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.399506] (-) TimerEvent: {}
+[0.453230] (person_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.459910] (person_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.465465] (person_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.471342] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499705] (-) TimerEvent: {}
+[0.567279] (person_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.568587] (person_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.580310] (person_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.580836] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.581417] (person_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.582008] (person_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.582583] (person_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.583523] (person_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.586049] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.589155] (person_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599910] (-) TimerEvent: {}
+[0.695767] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700125] (-) TimerEvent: {}
+[0.707263] (person_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.714539] (person_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.715066] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.716268] (person_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.719544] (person_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.720052] (person_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.720656] (person_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.721623] (person_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.724753] (person_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800350] (-) TimerEvent: {}
+[0.841775] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/mypkg', 'build', '--build-base', '/home/ryo/ros2_ws/src/build/mypkg/build', 'install', '--prefix', '/home/ryo/ros2_ws/src/install/mypkg', '--record', '/home/ryo/ros2_ws/src/build/mypkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ryo/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/ryo', 'USER': 'ryo', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ryo', 'OLDPWD': '/home/ryo/ros2_ws/src/person_msg/msg', 'HUSHLOGIN': 'FALSE', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ryo/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ryo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'ja_JP.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ryo/ros2_ws/install/mypkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ryo/ros2_ws/src/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:/home/ryo/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.900538] (-) TimerEvent: {}
+[0.991787] (person_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.000709] (-) TimerEvent: {}
+[1.013448] (person_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.100962] (-) TimerEvent: {}
+[1.123226] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.127038] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.136060] (person_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.143467] (person_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.148667] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.159914] (person_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.201210] (-) TimerEvent: {}
+[1.210641] (person_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.219689] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.220560] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.221193] (mypkg) StdoutLine: {'line': b'writing ../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[1.221994] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[1.222475] (mypkg) StdoutLine: {'line': b'writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[1.222923] (mypkg) StdoutLine: {'line': b'writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[1.223054] (mypkg) StdoutLine: {'line': b'writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[1.226990] (mypkg) StdoutLine: {'line': b"reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.229453] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[1.230035] (mypkg) StdoutLine: {'line': b'running build\n'}
+[1.230419] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[1.230554] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[1.231187] (mypkg) StdoutLine: {'line': b'copying mypkg/listener.py -> /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[1.231757] (mypkg) StdoutLine: {'line': b'running install\n'}
+[1.232295] (mypkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.232804] (mypkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.232949] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.233857] (mypkg) StdoutLine: {'line': b'copying /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg/talker.py -> /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[1.234523] (mypkg) StdoutLine: {'line': b'copying /home/ryo/ros2_ws/src/build/mypkg/build/lib/mypkg/listener.py -> /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg\n'}
+[1.235128] (mypkg) StdoutLine: {'line': b'byte-compiling /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc\n'}
+[1.235678] (mypkg) StdoutLine: {'line': b'byte-compiling /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc\n'}
+[1.236205] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[1.237141] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/ryo/ros2_ws/src/install/mypkg/share/mypkg\n'}
+[1.237807] (mypkg) StdoutLine: {'line': b'copying launch/talk_listen.launch.py -> /home/ryo/ros2_ws/src/install/mypkg/share/mypkg\n'}
+[1.238248] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.240466] (mypkg) StdoutLine: {'line': b"removing '/home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.241120] (mypkg) StdoutLine: {'line': b'Copying ../build/mypkg/mypkg.egg-info to /home/ryo/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info\n'}
+[1.242876] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.282072] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/ryo/ros2_ws/src/install/mypkg/lib/mypkg\n'}
+[1.282451] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/ryo/ros2_ws/src/install/mypkg/lib/mypkg\n'}
+[1.282828] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/ryo/ros2_ws/src/build/mypkg/install.log'\n"}
+[1.301398] (-) TimerEvent: {}
+[1.322918] (mypkg) CommandEnded: {'returncode': 0}
+[1.353796] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[1.401629] (-) TimerEvent: {}
+[1.502351] (-) TimerEvent: {}
+[1.603048] (-) TimerEvent: {}
+[1.607208] (person_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.607633] (person_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.607776] (person_msgs) StderrLine: {'line': b'  person_msgs --arguments-file\n'}
+[1.607871] (person_msgs) StderrLine: {'line': b'  /home/ryo/ros2_ws/src/build/person_msgs/rosidl_adapter__arguments__person_msgs.json\n'}
+[1.607956] (person_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[1.608041] (person_msgs) StderrLine: {'line': b'  /home/ryo/ros2_ws/src/build/person_msgs/rosidl_adapter/person_msgs\n'}
+[1.608123] (person_msgs) StderrLine: {'line': b'  --output-file\n'}
+[1.608205] (person_msgs) StderrLine: {'line': b'  /home/ryo/ros2_ws/src/build/person_msgs/rosidl_adapter/person_msgs.idls)\n'}
+[1.608283] (person_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.608358] (person_msgs) StderrLine: {'line': b'\n'}
+[1.608468] (person_msgs) StderrLine: {'line': b"  Error processing 'unit8 age' of 'person_msgs/Person': ''unit8' is an\n"}
+[1.608612] (person_msgs) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''\n"}
+[1.608717] (person_msgs) StderrLine: {'line': b'\n'}
+[1.608808] (person_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.608897] (person_msgs) StderrLine: {'line': b'\n'}
+[1.608988] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.609077] (person_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.609168] (person_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.609256] (person_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.609347] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.609439] (person_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.609599] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.609694] (person_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.609812] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.609914] (person_msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.610004] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.610112] (person_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.610256] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[1.610385] (person_msgs) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.610528] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[1.610652] (person_msgs) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.610755] (person_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.610861] (person_msgs) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.611012] (person_msgs) StderrLine: {'line': b'\n'}
+[1.611111] (person_msgs) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'unit8' is an invalid message\n"}
+[1.611209] (person_msgs) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.611304] (person_msgs) StderrLine: {'line': b'\n'}
+[1.611397] (person_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.611547] (person_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.611666] (person_msgs) StderrLine: {'line': b'  CMakeLists.txt:11 (rosidl_generate_interfaces)\n'}
+[1.611786] (person_msgs) StderrLine: {'line': b'\n'}
+[1.611889] (person_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.612000] (person_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.612123] (person_msgs) StdoutLine: {'line': b'See also "/home/ryo/ros2_ws/src/build/person_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.618260] (person_msgs) CommandEnded: {'returncode': 1}
+[1.648742] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 1}
+[1.703205] (-) TimerEvent: {}
+[1.761561] (person_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.803405] (-) TimerEvent: {}
+[1.903890] (-) TimerEvent: {}
+[2.004371] (-) TimerEvent: {}
+[2.092435] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.104552] (-) TimerEvent: {}
+[2.204998] (-) TimerEvent: {}
+[2.305495] (-) TimerEvent: {}
+[2.406158] (-) TimerEvent: {}
+[2.462364] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.485149] (person_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.488357] (person_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.506347] (-) TimerEvent: {}
+[2.518565] (person_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.518869] (person_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.518963] (person_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.519056] (person_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.538747] (person_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.577148] (person_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.598424] (person_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.599078] (person_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.601877] (person_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.606468] (-) TimerEvent: {}
+[2.645597] (person_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.648554] (person_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ryo/ros2_ws/src/build/person_msg\n'}
+[2.653962] (person_msg) JobEnded: {'identifier': 'person_msg', 'rc': 'SIGINT'}
+[2.664990] (-) EventReactorShutdown: {}
