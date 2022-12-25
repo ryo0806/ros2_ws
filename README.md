@@ -10,19 +10,30 @@
 
 # 内容について
 
- * setup.pyについて
+ * src/mypkg/setup.pyについて
+	スクリプト登録, ノード短縮に用いる
 
- * mypkg/listener.pyについて
+ * src/mypkg/mypkg/listener.pyについて
+	`talker.py`からデータを受け取り表示するノード
 
- * mypkg/talker.pyについて
+ * src/mypkg/mypkg/talker.pyについて
+	トピック名`talker`でトピック通信を行うノード
 
- * launch/talk_listen.launch.pyについて
+ * src/mypkg/launch/talk_listen.launch.pyについて
+	`talker.py`と`listener.py`のノードを一括で実行するノード
 
- * package.xmlについて
+ * src/mypkg/package.xmlについて
+	モジュール登録用
 
- * test/test.bashについて
+ * src/mypkg/test/test.bashについて
+	`talker.py`と`listener.py`が通信できているのかをテストするプログラム
 
- * .github/workflow/test.ymlについて 
+ * .github/workflows/test.ymlについて 
+	パッケージの信頼性を向上させるバッチ用のプログラム
+
+# パッケージの使用方法
+
+ * a
 
 # 必要なソフトウェア
 
