@@ -48,13 +48,13 @@
  5.`$ colcon build`をros2_ws上で実行する
 
  6.パッケージを利用可能にするために以下を実行
-    ```$ source ~/src/mypkg/install/setup.bash
-    $ source ~/src/mypkg/install/local_setup.bash```
+    ```$ source ~/src/mypkg/install/setup.bash```
+    ```$ source ~/src/mypkg/install/local_setup.bash```
 
  7.以下のコマンドを入力し, `mypkg`が赤く表示されれば, 成功です.
-    ```$ source ~/.bashrc
-    $ ros2 pkg list | grep mypkg
-     mypkg```
+    ```$ source ~/.bashrc```
+    ```$ ros2 pkg list | grep mypkg```
+    ```mypkg```
 
  8.プログラムを実行する.
 
