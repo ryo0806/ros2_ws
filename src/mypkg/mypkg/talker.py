@@ -1,5 +1,5 @@
 #SPDX-FileCopyrightText: 2022 Ryo Yanagisawa
-#iSPDX-Lisence-Identifier: BSD-3-Clause
+#SPDX-Lisence-Identifier: BSD-3-Clause
 
 import rclpy
 from rclpy.node import Node
