@@ -3,6 +3,11 @@
  * このパッケージの内容は大学の授業で制作したものです.
  * 扱い方については下記に示しています.
 
+# パッケージの信用性について
+
+ ![test](https://github.com/ryo0806/ros2_ws/actions/workflows/test.yml/badge.svg)
+ * テストプログラムを通過していることを示している.
+
 ## 内容について
 
  * setup.pyについて
