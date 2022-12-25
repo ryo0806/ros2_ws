@@ -8,7 +8,7 @@
  ![test](https://github.com/ryo0806/ros2_ws/actions/workflows/test.yml/badge.svg)
  * テストプログラムを通過していることを示している.
 
-## 内容について
+# 内容について
 
  * setup.pyについて
 
@@ -24,15 +24,15 @@
 
  * .github/workflow/test.ymlについて 
 
-## 必要なソフトウェア
+# 必要なソフトウェア
 
- * ROS2
+ * ROS2 humbel(Ubuntu 22.04用のROS2 version)
 
-## 動作確認済み環境
+# 動作確認済み環境
 
  * ubuntu 22.04.1 LTS
 
-## 権限について
+# 権限について
  
  * このソフトウェアパッケージは, 3条項BSDライセンスの下, 再頒布および使用が許可されます.
 
