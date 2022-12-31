@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/detail/person__builder.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
   "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/detail/person__struct.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
   "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/detail/person__traits.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
+  "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/srv/detail/query__builder.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
+  "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/srv/detail/query__struct.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
+  "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/srv/detail/query__traits.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
+  "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/srv/query.hpp" "/home/ryo/ros2_ws/build/person_msgs/rosidl_generator_cpp/person_msgs/msg/person.hpp"
   )
 
 
